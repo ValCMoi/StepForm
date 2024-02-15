@@ -1,0 +1,6 @@
+<div class="w-full">
+    Inside !!
+    <p-steps [model]="items" [readonly]="false" [activeIndex]="activeIndex" (activeIndexChange)="onActiveIndexChange($event)"></p-steps>
+
+    <app-child-step-form [activeIndex]="activeIndex"></app-child-step-form>
+</div>
